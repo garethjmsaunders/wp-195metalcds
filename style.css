@@ -1,0 +1,107 @@
+/*
+Theme Name:   195 metal CDs
+Theme URI:    https://www.195metalcds.com/theme/
+Description:  195 metal CDs child theme
+Author:       Gareth J M Saunders
+Author URI:   https://www.garethjmsaunders.co.uk
+Template:     ImageGridly
+Version:      0.1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         blog, news, right-sidebar, post-formats, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, sticky-post, translation-ready
+Text Domain:  imagegridlychild
+*/
+
+
+/* === 1. Base rules === */
+
+
+
+
+/* === 2. Layout rules === */
+
+
+
+
+/* === 3. Module === */
+
+/* Date on album covers */
+.featured-img-box .entry-date {
+    background-color: #111;
+    color: #0ab0a8 !important;
+}
+
+/* Genres sidebar list */
+#secondary .widget li .children li,
+#secondary .widget li .sub-menu li {
+    padding: 5px 0 5px 1em;
+}
+
+
+
+
+/* === 4. State === */
+
+/* Remove underline on hover */
+.single .entry-content a:hover,
+.page .entry-content a:hover,
+.comment-content a:hover,
+.comments-area .reply a:hover,
+.logged-in-as a:hover,
+.comments-area .comment-respond a:hover,
+.footer-column-wrapper a:hover {
+    text-decoration: none;
+}
+
+
+
+
+/* === 5. Theme === */
+
+/* Recolour page numbers block */
+.page-numbers li a,
+.blogposts-list .blogpost-button,
+span.page-numbers.dots,
+.page-numbers.current,
+.page-numbers li a:hover {
+    color: #111111;
+}
+.page-numbers li a:hover {
+    color: #0ab0a8;
+}
+.page-numbers.current {
+    background-color: #0ab0a8;
+}
+
+
+/* Category page */
+h1.page-title {
+    color: #0ab0a8;
+}
+
+
+/* Header colour against dark background */
+header.fbox.page-header {
+    color: white;
+}
+
+
+/* Post Comment button on pages */
+.comments-area p.form-submit input {
+    background-color: #0ab0a8;
+}
+
+
+/* Fig caption */
+.wp-block-image figcaption {
+    color: grey;
+}
+
+
+/* Widget */
+#secondary .widget a:hover,
+#secondary a:hover,
+#secondary .widget li a:hover,
+#secondary span.sub-arrow {
+    color: #0ab0a8;
+}
