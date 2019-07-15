@@ -1,16 +1,125 @@
 /*
 Theme Name:   195 metal CDs
 Theme URI:    https://www.195metalcds.com/theme/
-Description:  195 metal CDs child theme
+Description:  195 metal CDs child theme built on top of Image Gridly.
 Author:       Gareth J M Saunders
 Author URI:   https://www.garethjmsaunders.co.uk
-Template:     ImageGridly
-Version:      0.1.0
+Template:     imagegridly
+Version:      0.3.0
 License:      GNU General Public License v2 or later
 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 Tags:         blog, news, right-sidebar, post-formats, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, sticky-post, translation-ready
 Text Domain:  imagegridlychild
 */
+
+/* Customisation rules
+
+Colour palette
+
+#0ab0a8    Seething Akira Sleepy Skeletor Turquoise (2019-01-30)
+#000000    Black
+#333333    Very dark grey
+#111111    Dark grey
+#cccccc    Light grey
+#ffffff    White
+
+
+# Upper widgets
+Background colour: #000;
+Title colours: #000;
+Text colours: #000;
+Link colours: #000;
+Border colours: #000;
+
+# Navigation settings
+Logo colour: #000000;
+Background colour: #111111;
+Link colour: #0ab0a8;
+Border colour: #0ab0a8;
+
+# Sidebar settings
+Background colour: #111111;
+Headline colour: #0ab0a8;
+Link colour: #ffffff;
+Text colour: #ffffff;
+
+# Footer settings
+Headline colour: #000000;
+Text colour: #000000;
+Link colour: #0ab0a8;
+Border colour: #0ab0a8;
+Background colour: #111111;
+Copyright text: Copyright © 2019 Gareth J M Saunders;
+
+# Blog feed settings
+Background colour: #ffffff;
+Image headline colour: #ffffff;
+No image headline colour: #000000;
+Image date colour: #0ab0a8;
+No image date colour: #0ab0a8;
+Button text colour: #0ab0a8;
+Button background colour: #ffffff;
+
+# Posts/Page settings
+Background colour: #111111;
+Headline colour: #0ab0a8;
+Byline colour: #cccccc;
+Text colour: #ffffff;
+Link colour: #0ab0a8;
+Button background colour: #000000;
+Button text colour: #ffffff;
+Border colour: #000000;
+
+# Typography
+All default theme typography
+
+# Site identity
+Logo: png;
+Site title: 195 metal CDs;
+Tagline: Independent metal, hardcore and punk reviews;
+Display site title and tagline: ON;
+Site icon: default;
+
+# Background colour
+Background colour: #333333;
+
+# Header settings
+Only show header image on front page: OFF;
+Title: 195 metal CDs;
+Tagline: <blank>;
+Text colour: #ffffff;
+Current header: No image set;
+
+# Background image
+Background image: None;
+Preset: Default;
+
+# Menus
+## Primary menu
+Location: Primary;
+
+# Content options
+Display date: ON;
+Display categories: ON;
+Display tags: ON;
+Display author: ON;
+Display comment link: ON;
+
+# Widgets
+Footer widget 1: Recent posts;
+Footer widget 2: Tag Cloud: Most common tags;
+Footer widget 3: Tag Cloud: Music genres;
+Header widget 1: None;
+Header widget 2: None;
+Header widget 3: None;
+
+# Homepage settings
+Your homepage displays: Your latest posts;
+
+# Additional CSS
+None, it's all below!
+*/
+
 
 
 /* === 1. Base rules === */
